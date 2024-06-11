@@ -47,7 +47,7 @@ import {
       >
         @for (user of preview(); track user.id) {
           <ion-card>
-            <ion-item button>
+            <ion-item button lines="none">
               <ion-avatar slot="start">
                 <img [src]="user.picture" [alt]="user.name" />
               </ion-avatar>
@@ -80,8 +80,8 @@ import {
         height: 100px;
         background: linear-gradient(
           180deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(255, 255, 255, 1) 60%
+          rgba(var(--ion-background-color-rgb, 255,255,255), 0) 0%,
+          rgba(var(--ion-background-color-rgb, 255, 255, 255), 1) 60%
         );
         z-index: 99;
         margin-bottom: -15px;
