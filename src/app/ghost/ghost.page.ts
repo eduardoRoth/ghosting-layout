@@ -80,7 +80,7 @@ import {
         height: 100px;
         background: linear-gradient(
           180deg,
-          rgba(var(--ion-background-color-rgb, 255,255,255), 0) 0%,
+          rgba(var(--ion-background-color-rgb, 255, 255, 255), 0) 0%,
           rgba(var(--ion-background-color-rgb, 255, 255, 255), 1) 60%
         );
         z-index: 99;
